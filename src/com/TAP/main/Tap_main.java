@@ -1,5 +1,5 @@
 package com.TAP.main;
-import com.TAP.recursion.*;
+import com.TAP.bitmanipulation.*;
 
 import java.util.Scanner;
 
@@ -59,7 +59,10 @@ public class Tap_main {
 //        }
 //        System.out.println(P_01_basicsOfRec.factorial(5));
 //        scan.close();
-        printTriangle(5);
+//        printTriangle(5);
+        int[] arr = {1,3,2,3,2,4,5,6,4,5,1};
+        System.out.println(P_01_LonelyInteger.solution(arr));
     }
+
 
 }
